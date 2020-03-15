@@ -22,7 +22,9 @@ Git Account: <br>
 - Passwort: 	******* <br>
 <br>
 Mein Wissenstand: <br>
+<br>
 - Linux: <br>
+	Im Bereich Linux habe ich lediglich die Grundkentnisse, was wir in den Schulen un Ük's erarbeitet haben. Im Büro arbeiten wir nur auf Windows umgebungen.
 - Virtualisierung <br>
 - Vagrant <br>
 - Git <br>
