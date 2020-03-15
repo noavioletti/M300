@@ -41,15 +41,15 @@ Mein Wissenstand: <br>
 - Systemsicherheit <br>
 
 <br>
-Meine Lernschritte: <br> 
+##Meine Lernschritte: <br> 
 <br>
-- Linux: <br>
+###Linux: <br>
 	Im Bereich Linux kam nicht ein Grosser Wissenzuwachs dazu. Hier war es mehr eine Repetition und Aufrischung von diversen Ablaufen und Funktionen bei Linux. <br>
 	<br>
-- Virtualisierung <br>
+###Virtualisierung <br>
 	Bei der Virtualisierung habe ich keinen grossen Zuwachs von meinem Wissen erhalten.
 	<br>
-- Vagrant <br>
+###Vagrant <br>
 	Vagrant ist ein Tool um sehr einfach Identische Virtuelle Maschinen zu erstellen, mithilfe von Infrstructure as Code. <br>
 	Wie arbeitet Vagrant:<br>
 	Um mit Vagrant eine VM erfolgreich aufzusetzen muss als erstes ein File erstllt werden. In diesem File werden alle Konfigurationen getätig um die VM anschliessend aufzusetzen. <br>
@@ -60,9 +60,9 @@ Meine Lernschritte: <br>
 - Vagrant status: Status anzeige der VM <br>
 - Vagrant port: Anzeige der Weitergeleiteten Ports von der VM <br>
 - Vagrant halt: Stoppt laufende VM <br>
-- Vagrant destroy: löscht VM 
+- Vagrant destroy: löscht VM <br>
 <br>
-- Git <br>
+###Git <br>
  	Git verwenden wir um unsere Theorie Information zu erhalten. Danach haben wir unseren eigene Account um hier unsere Repsitory zu führen. <br>
 	Der Git Client kann auf verschiedene Arten genuzt werden. Er wird unteranderem verwendet um von unserem lokalen Rechner mit unserem Git Account zu Kommunizieren. <br>
 	Git Befehle: <br>
@@ -72,7 +72,7 @@ Meine Lernschritte: <br>
 - git commit: Upload bestätigen <br>
 - git push: Upload pushen <br>
 <br>
-- Mark Down <br> 
+###Mark Down <br> 
 
-- Systemsicherheit <br>
+###Systemsicherheit <br>
 <br>
