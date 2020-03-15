@@ -17,3 +17,18 @@ Als ich all diese Dinge zur Vorbereitung getätigt habe, konnte ich mit dem näc
 
 # K2 <br>
 
+Git Account: <br>
+- Login Mail: 	noavioletti@hotmail.com <br>
+- Passwort: 	******* <br>
+<br>
+Mein Wissenstand: <br>
+- Linux: <br>
+- Virtualisierung <br>
+- Vagrant <br>
+- Git <br>
+- Mark Down <br> 
+- Systemsicherheit <br>
+<br>
+Meine Lernschritte: <br> 
+
+<br>
