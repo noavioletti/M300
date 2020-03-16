@@ -116,7 +116,6 @@ Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
     sudo ufw allow 443/tcp (Port 443 öffnen) <br>
     sudo ufw allow 22/tcp (Port 22 öffnen) <br>
     echo "y" | sudo ufw enable (Firewall aktivieren) <br>
-<br>
 - Standard User erzeugen mit Admin Recheten: <br>
 	Ich wollte einen Standard User erzeugen somit habe ich dies auch noch in mein Vagrantfile gepackt. <br>
     sudo adduser localadmin (Nutzer erzeugen) <br>
