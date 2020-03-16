@@ -39,7 +39,7 @@ Mein Wissenstand: <br>
 	Mark Down ist ebenfall neu für mich. <br>
 	<br>
 - Systemsicherheit <br>
-
+	Im Bereich Systemsicherheit kannte ich die Meisten Themen bereits und es war nicht vieles Neu <br>
 <br>
 Meine Lernschritte: <br> 
 <br>
@@ -78,4 +78,7 @@ Meine Lernschritte: <br>
 	Markdown Syntax: http://markdown-syntax.de/Syntax/ <br>
 	<br>
 - Systemsicherheit <br>
+	Viel neues ist in diesem Bereich an Wissen nicht zugewachsen. Es war hier ebenfalls mehr eine Auffrischung und Repetition angelegen heit wie im Berreich Linux. <br>
 <br>
+
+# K3 <br>
