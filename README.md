@@ -122,7 +122,11 @@ Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
     sudo adduser localadmin sudo (Nutzer in Admin Gruppe hinzufügen) <br>
 # K5 <br>
 
-- Reflexion
+- kurz Reflexion
 Ich hatte anfangs einige Schwirigkeiten mit dem Modul, da einiges für mich neu war und ich noch nie damit gearbeitet habe. 
-Als ich einigermassen reingekommen bin, lief es relativ gut. <br>
- 
+Als ich einigermassen reingekommen bin, lief es relativ gut. Ich habe ebenfalls mein Wissen vergrössern können. <br>
+Wenn wir nun vergleichen was ich zuvor kannte im Vergleich mit jetzt, kann ich sagen ich habe einiges dazu lernen können: <br>
+- komplette Vagrant Umgebung inkl. Infrstructure as Code <br>
+- komplette Git Umgebung <br> 
+- Markdown <br>
+Diese Themen waren für mich komplettes Neuland. Der Rest war wie ich bei K2 bereits erwähnt han hilfreiches auffrischen der Themen. <br>
