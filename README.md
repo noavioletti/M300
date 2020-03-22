@@ -22,7 +22,7 @@ Git Account: <br>
 - Passwort: 	******* <br>
 <br>
 Mein Wissenstand: <br>
-<br>
+
 - Linux: <br>
 	Im Bereich Linux habe ich lediglich die Grundkentnisse, was wir in den Schulen un Ük's erarbeitet haben. Im Büro arbeiten wir nur auf Windows umgebungen. <br>
 	
@@ -42,7 +42,7 @@ Mein Wissenstand: <br>
 	Im Bereich Systemsicherheit kannte ich die Meisten Themen bereits und es war nicht vieles Neu <br>
 <br>
 Meine Lernschritte: <br> 
-<br>
+
 - Linux: <br>
 	Im Bereich Linux kam nicht ein Grosser Wissenzuwachs dazu. Hier war es mehr eine Repetition und Aufrischung von diversen Ablaufen und Funktionen bei Linux. <br>
 	
@@ -120,3 +120,9 @@ Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
 	Ich wollte einen Standard User erzeugen somit habe ich dies auch noch in mein Vagrantfile gepackt. <br>
     sudo adduser localadmin (Nutzer erzeugen) <br>
     sudo adduser localadmin sudo (Nutzer in Admin Gruppe hinzufügen) <br>
+# K5 <br>
+
+- Reflexion
+Ich hatte anfangs einige Schwirigkeiten mit dem Modul, da einiges für mich neu war und ich noch nie damit gearbeitet habe. 
+Als ich einigermassen reingekommen bin, lief es relativ gut. <br>
+ 
