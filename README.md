@@ -118,8 +118,8 @@ Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
     echo "y" | sudo ufw enable (Firewall aktivieren) <br>
 - Standard User erzeugen mit Admin Recheten: <br>
 	Ich wollte einen Standard User erzeugen somit habe ich dies auch noch in mein Vagrantfile gepackt. <br>
-    sudo adduser localadmin (Nutzer erzeugen) <br>
-    sudo adduser localadmin sudo (Nutzer in Admin Gruppe hinzufügen) <br>
+    sudo useradd localadmin (Nutzer erzeugen) <br>
+    sudo usermod -aG sudo localadmin (Nutzer in Admin Rechte erteilen) <br>
 # K5 <br>
 
 - kurz Reflexion

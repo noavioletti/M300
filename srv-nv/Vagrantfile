@@ -53,8 +53,8 @@ Vagrant.configure("2") do |config|
     sudo ufw allow 22/tcp
     echo "y" | sudo ufw enable 
     #Standarduser erzeugen
-    sudo adduser localadmin 
-    sudo adduser localadmin sudo
+    sudo useradd localadmin
+    sudo usermod -aG sudo localadmin
   SHELL
 end
  
