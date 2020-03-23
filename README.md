@@ -129,4 +129,4 @@ Wenn wir nun vergleichen was ich zuvor kannte im Vergleich mit jetzt, kann ich s
 - komplette Vagrant Umgebung inkl. Infrstructure as Code <br>
 - komplette Git Umgebung <br> 
 - Markdown <br>
-Diese Themen waren für mich komplettes Neuland. Der Rest war wie ich bei K2 bereits erwähnt han hilfreiches auffrischen der Themen. <br>
+Diese Themen waren für mich komplettes Neuland. Der Rest war wie ich bei K2 bereits erwähnt habe hilfreiches auffrischen der Themen. <br>
