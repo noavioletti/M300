@@ -102,6 +102,7 @@ hostname: srv-nv <br>
 Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
 
 # K4 <br>
+Ich habe mir eine VM erstellt, die die Möglichkeit hat später als Webserver zu verwenden. <br>
 - Apache Server installieren: <br>
 	Meine Vagrant VM sollte einen Apache Webserver enthalten. Desswegen muss dies in meinem Vagrant File folgender massen hinterlegt sein. <br>
     sudo apt-get update <br>
@@ -120,6 +121,10 @@ Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
 	Ich wollte einen Standard User erzeugen somit habe ich dies auch noch in mein Vagrantfile gepackt. <br>
     sudo useradd localadmin (Nutzer erzeugen) <br>
     sudo usermod -aG sudo localadmin (Nutzer in Admin Rechte erteilen) <br>
+- SSH <br>
+	Damit ich mich via SSH mich sicher verbinden kann müssen wir noch einige Einstellungen Tätigen. <br>
+	Zuerste muss ein Key generiert werden (ssh-keygen -t rsa -b 4096) <br>
+	Als nächstes muss ich den öffentlichen Schlüssel auf meinem Zielsystem in die Datei schreiben. (ssh-copy-id -i ~/.ssh/id_rsa.pub noa.violetti@informaticon.com) <br>
 # K5 <br>
 
 - kurz Reflexion
