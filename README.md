@@ -91,15 +91,22 @@ Das Vagrant File konnte nun angepasst werden. <br>
 Folgende Sachen habe ich angepasst: <br>
 
 - config.vm.hostname = "srv-nv" (Hostename) <br>
+- config.vm.box = "ubuntu/xenial64" <br>
+- config.vm.box_check_update = false <br>
+- config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true <br>
+- vb.gui = true
 - config.vm.network "public_network", ip: "192.168.55.10" (Netzwerk) <br>
 - vb.memory = "2048" (VM memory) <br>
 - vb.cpus = "2" (CPU Cores) <br>
 <br>
 Mit Vagrant up konnte ich nun die VM Starten. Nun musste ich nur noch überprüfen ob meine es meine Einstellungen planmässig übernommen hat. Ich habe mich mit dem Git Client und Vagrant ssh mich auf die VM verbunden. Mit den ensprechenden Terminal Befehlen von Linux konnte man nun ganz Simpel alle Informationen abrufen und überprüfen. <br>
-Beispiel: <br>
+Testfälle: <br>
 ifconfig: inet addr:192.168.55.10 <br>
 hostname: srv-nv <br>
-Die Ressourcen Einstellungen konnte ich bei Virtual Box nachschauen. <br>
+memory: 2048 MB <br>
+CPU Cores: 2 <br>
+Virtual Box Benutzeroberfläche startet ebenfalls mit Vagrant up <br>
+Weitere Infos zu meiner Konfiguration beschreibe ich in K4 <br>
 
 # K4 <br>
 Ich habe mir eine VM erstellt, die die Möglichkeit hat später als Webserver zu verwenden. <br>
@@ -124,7 +131,12 @@ Ich habe mir eine VM erstellt, die die Möglichkeit hat später als Webserver zu
 - SSH <br>
 	Damit ich mich via SSH mich sicher verbinden kann müssen wir noch einige Einstellungen Tätigen. <br>
 	Zuerste muss ein Key generiert werden (ssh-keygen -t rsa -b 4096) <br>
-	Als nächstes muss ich den öffentlichen Schlüssel auf meinem Zielsystem in die Datei schreiben. (ssh-copy-id -i ~/.ssh/id_rsa.pub noa.violetti@informaticon.com) <br>
+	Als nächstes muss ich den öffentlichen Schlüssel auf meinem Zielsystem in die Datei schreiben. (ssh-copy-id -i ~/.ssh/id_rsa.pub localadmin@srv-nv) <br>
+-Testfälle <br>
+HTTP://localhost:8080: Apache default Website muss aufgeführt werden. <br>
+sudo ufw status: Alle vordefinierten Regeln müssen aufgeführt werden <br>
+cat /etc/group: localadmin muss gefunden werden + muss in sudo Gruppe sein <br>
+cat /.ssh/id_rsa | cat /.ssh/id_rsa.pub: SSH Key sollte erstellt worden sein. <br>
 # K5 <br>
 
 - kurz Reflexion
@@ -135,3 +147,7 @@ Wenn wir nun vergleichen was ich zuvor kannte im Vergleich mit jetzt, kann ich s
 - komplette Git Umgebung <br> 
 - Markdown <br>
 Diese Themen waren für mich komplettes Neuland. Der Rest war wie ich bei K2 bereits erwähnt habe hilfreiches auffrischen der Themen. <br>
+- Meine Probleme <br>
+Ich hatte diverse Probleme und Stolpersteine. Mit dem Reverse Proxy hatte ich meine ersten Schwierigkeiten. Ich musste diverse Themen Googeln. Leider landete ich immer in einer Sackgasse. Das gleiche hatte ich mit LDAP.
+Auch hier konnte ich weder mit den Unterlagen, die mir zur verfügung standen noch mit meinen Googel künsten erfolgreich werden. <br>
+Nun kommen wir zu meinem grössten Problem. Ich brachte es fertig mein Vagrant und mein Virtual Box kaputt zu machen. Ich musste mehrere Stunden investieren um dieses Problem zu lösen. Dieses Problem brachte ebenfalls meinen Zeitplan extrem durcheinander. <br>
