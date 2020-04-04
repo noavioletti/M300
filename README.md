@@ -132,6 +132,7 @@ Ich habe mir eine VM erstellt, die die Möglichkeit hat später als Webserver zu
 	Damit ich mich via SSH mich sicher verbinden kann müssen wir noch einige Einstellungen Tätigen. <br>
 	Zuerste muss ein Key generiert werden (ssh-keygen -t rsa -b 4096) <br>
 	Als nächstes muss ich den öffentlichen Schlüssel auf meinem Zielsystem in die Datei schreiben. (ssh-copy-id -i ~/.ssh/id_rsa.pub localadmin@srv-nv) <br>
+	<br>
 -Testfälle <br>
 	HTTP://localhost:8080: Apache default Website muss aufgeführt werden. <br>
 	sudo ufw status: Alle vordefinierten Regeln müssen aufgeführt werden <br>
