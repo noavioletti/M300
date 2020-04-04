@@ -133,10 +133,11 @@ Ich habe mir eine VM erstellt, die die Möglichkeit hat später als Webserver zu
 	Zuerste muss ein Key generiert werden (ssh-keygen -t rsa -b 4096) <br>
 	Als nächstes muss ich den öffentlichen Schlüssel auf meinem Zielsystem in die Datei schreiben. (ssh-copy-id -i ~/.ssh/id_rsa.pub localadmin@srv-nv) <br>
 -Testfälle <br>
-HTTP://localhost:8080: Apache default Website muss aufgeführt werden. <br>
-sudo ufw status: Alle vordefinierten Regeln müssen aufgeführt werden <br>
-cat /etc/group: localadmin muss gefunden werden + muss in sudo Gruppe sein <br>
-cat /.ssh/id_rsa | cat /.ssh/id_rsa.pub: SSH Key sollte erstellt worden sein. <br>
+	HTTP://localhost:8080: Apache default Website muss aufgeführt werden. <br>
+	sudo ufw status: Alle vordefinierten Regeln müssen aufgeführt werden <br>
+	cat /etc/group: localadmin muss gefunden werden + muss in sudo Gruppe sein <br>
+	cat /.ssh/id_rsa | cat /.ssh/id_rsa.pub: SSH Key sollte erstellt worden sein. <br>
+	
 # K5 <br>
 
 - kurz Reflexion
